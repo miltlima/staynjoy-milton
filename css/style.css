@@ -1,0 +1,82 @@
+body {
+    width: 100%;
+    font-family: 'Jost', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #E98389;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    font-family: 'Jost', sans-serif;
+    margin: 15px;
+    margin-top: 20px;
+    margin-bottom:5px;
+    width: 19%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 70%;
+    padding-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.info #property_type {
+    font-weight: 500;
+}
+
+.info #name {
+    font-size: 14px;
+}
+
+.info {
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.info #price {
+    font-weight: 500;
+    font-size: 18px;
+    color: #E98389;
+}
+
+.btn {
+    color: white;
+    background-color: #E98389;
+    outline: node;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #E98389;
+    transition: 1s;
+}
+
+nav #searchBar {
+    text-align: justify;
+}
+
+#searchBar {
+    width: 82%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 0.1px solid rgb(233, 233, 233);
+}
+#searchRooms input {
+    margin-left: 10px;
+    display: inline-block;
+    width: 340px;
+    height: 40px;
+    text-align: center;
+}

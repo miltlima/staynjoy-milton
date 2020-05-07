@@ -12,22 +12,27 @@ function buildCards(cards) {
     cards.map(buildCard);
 }
 
-function buildCard(card){
+function buildCard(card) {
     const div = document.createElement("div");
-    div.className ="card";
+    div.className = "card";
     div.innerHTML = `
     <img src="${card.photo}" id="photo" class="card-img-top" alt="">
                 <div class="info">
                     <p id="property_type" class="card-title">${card.property_type}</p>
                     <p id="name" class="card-text">${card.name}</p>
                     <p id="price">R$ ${card.price},00 por Noite</p>
+                    <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
                 </div>
     `
     cardsContainer.appendChild(div);
 }
 async function main() {
     data = await fetchCards();
-    if (data){
+    if (data) {
         buildCards(data);
     }
 }

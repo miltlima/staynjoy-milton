@@ -20,13 +20,15 @@ function buildCard(card) {
                 <div class="info">
                     <p id="property_type" class="card-title">${card.property_type}</p>
                     <p id="name" class="card-text">${card.name}</p>
-                    <p id="price">R$ ${card.price},00 por Noite</p>
+                    <p id="price"><strong>R$ ${card.price},00</strong>/Noite</p>
+                    <p id="tag"><i class="fa fa-tag"> </i> O novo preço mais baixo</p> 
                     <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
                 </div>
+                    
     `
     cardsContainer.appendChild(div);
 }

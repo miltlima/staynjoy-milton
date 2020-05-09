@@ -6,7 +6,7 @@ Projeto para o desafio da Gama Academy, consiste em uma Página consumindo uma A
  - CSS
  - Javascript
 
-:::image type="content" source="img/staynjoy.png" alt-text="prototipo staynjoy":::
+:::image type="content" source="https://github.com/miltlima/staynjoy-milton/tree/master/img/staynjoy.png" alt-text="staynjoy":::
 
 
 Projeto está hospedado no [staynjoy-milton.netlify.app](https://staynjoy-milton.netlify.app)
